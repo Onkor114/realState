@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole {
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.whole .head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.whole .head h1{
+  color: rgb(238, 98, 107);
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.whole .head h2{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 56px;
+}
+.whole .head .nav_bar ul{
+  display: flex;
+}
+.nav_bar ul li {
+  margin: 10px;
+  list-style: none;
+
+}
+.nav_bar ul li button {
+  color: white;
+  background-color: rgb(30, 30, 30) !important;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 50px;
+  display: inline-block;
+  padding: 0px 25px;
+  border: none;
+}
+.nav_bar .active {
+  background-color: rgb(243, 85, 37) !important;
+  color: rgb(255, 255, 255);
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin-top: 20px;
+ 
+}
+
+.section .left {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+  padding: 35px 30px;
+}
+.section .left ul {
+  margin-bottom: 0px;
+}
+.section .left ul li {
+  padding: 10px;
+  margin: 20px;
+  list-style: none;
+  display: block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  text-align: left;
+  font-size: 15px;
+  color: rgb(170, 170, 170);
+  font-weight: 400;
+}
+
+.section .left ul li span {
+  font-size: 20px;
+  color: rgb(30, 30, 30);
+  font-weight: 700;
+  display: inline-block;
+}
+
+.section .right h4{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+}
+.section .right p{
+  font-size: 14px;
+  line-height: 28px;
+  color: rgb(74,74,74);
+}
+
